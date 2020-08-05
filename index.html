@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The Meyer lab: Data Science and Microbiome Analysis</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#header">
+<div id="header" class="navbar-fixed-top navbar navbar-default navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand"> Data Science and Microbiome Analysis</a>
+    </div>
+    <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#about">about us</a></li>
+        <li><a href="#research">research</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#teaching">teaching</a></li>
+	<li><a href="#misc">miscellaneous</a></li>
+
+        <li><a href="https://www.uni-due.de/en" style="color: #1da1f2; font-weight: bold">University of Duisburg-Essen</a></li>
+        <li><a href="https://www.uk-essen.de/index.php?id=2477&L=1" style="color: #6cc644; font-weight: bold">University Hospital Essen</a></li>
+
+    </ul>
+    </div>
+</div>
+
+<div class="container">
+<section id="about">
+<div>
+  The Meyer lab is located at the Institute for artificial intelligence in medicine (IKIM), University Hospital Essen, University of Duisburg-Essen.
+    We are focused on efficient, reproducible and sustainable Data Science and Microbiome Analysis.
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Member</th>
+          <th>Position</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <th><a href="https://github.com/folker">Folker Meyer</a></th>
+          <td>Professor</th>
+        </tr>
+        <tr>
+          <th>tbd</th>
+          <td>Bioinformatics Phd student</td>
+        </tr>
+        <tr>
+          <th>tbd</th>
+          <td>Bioinformatics Phd student</td>
+        </tr>
+        <tr>
+          <th>tbd</th>
+          <td>Bioinformatics Phd student</td>
+        </tr>
+        <tr>
+	        <th>tbd</th>
+          <td>data sciemnce PhD student</td>
+	      </tr>
+        <tr>
+	        <th>tbd</th>
+          <td>data sciemnce PhD student</td>
+	      </tr>
+        <tr>
+          <th>tbd</th>
+          <td>post doc</td>
+        </tr>
+        <tr>
+          <th>tbd</th>
+          <td>assistant</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <h3>News</h3>
+    <table class="table">
+    <tr>
+      <th>Date</th>
+      <th>News</th>
+    </tr>
+    <tr>
+      <td>2020-08-01</th>
+      <td>
+        Folker handed over leadership of the <a href="https://www.mg-rast.org">MG-RAST</a> project and started the new group.
+      </td>
+    </tr>
+    </table>
+</div>
+</section>
+
+<section id="research">
+<h3>Research</h3>
+
+<section>
+<h4>Projects</h4>
+<table class="table">
+<tbody>
+
+  <tr><th>MG-RAST v5</th><td>
+    <p>
+      Implement a comprehensive next generation microbiome pipeline that includes clustering, assembly and MAG generation.
+      This is a collaborative project with the MG-RAST team at the <a href="https://www.uchicago.edu">University of Chicago</a> and <a href="https://www.anl.gov">
+        Argonne National Laboratory</a> in Chicago, Illinois.
+      <a href="https://mg-rast.org">MG-RAST</a> is a hosted microbiome science platform that uses an efficient pipeline executed 
+      distributed resources (clouds, grids and clusters) to process microbiome data of various types. Data is then integrated into 
+      a data science platform for web based visualization, comparison and analysis.
+      
+      A zero setup platform for reproducible scientific computing, supports computing on multiple platforms. 
+      Skyport2 supports containerized environments via Docker and Singularity. 
+      It can be used to create <a href="http://www.researchobject.org/" rel="nofollow">Researchobjects</a> 
+      when combined with <a href="http://www.commonwl.org" rel="nofollow">CWL</a> 
+      and <a href="https://github.com/common-workflow-language/cwlprov">CWLProv</a>
+    </p>
+  
+      <p class="text-right"><a href="https://github.com/MG-RAST/pipeline">visit homepage</a></p>
+    </td></tr>
+
+
+  <tr><th>Skyport2</th><td>
+  <p> 
+  
+  <p>A zero setup platform for reproducible scientific computing, supports computing on multiple platforms. 
+    Skyport2 supports containerized environments via Docker and Singularity. 
+    It can be used to create <a href="http://www.researchobject.org/" rel="nofollow">Researchobjects</a> 
+    when combined with <a href="http://www.commonwl.org" rel="nofollow">CWL</a> 
+    and <a href="https://github.com/common-workflow-language/cwlprov">CWLProv</a>
+  </p>
+
+    <p class="text-right"><a href="https://mg-rast.github.io/AWE/">visit homepage</a></p>
+  </td></tr>
+
+<tr><th>Awe</th><td>
+
+<p>
+  <p>Awe is a light weight workflow manager for scientific computing at scale that 
+  executes <a href="http://www.commonwl.org" rel="nofollow">CWL</a> workflows.
+  
+  <p>It is a cloud native workflow platform designed from the ground up to be fast, scalable and fault tolerant. 
+    Awe is RESTful. The <a href="/MG-RAST/AWE/blob/master/API">API</a> is accessible from desktops, HPC systems, exotic hardware, the cloud and your smartphone</p>
+ 
+<p class="text-right"><a href="https://mg-rast.github.io/AWE/">visit homepage</a></p>
+</td></tr>
+
+<tr><th>Shock</th><td>
+<p>Shock is a platform to support scientific computation, storage, and distribution.</p>
+  <p> 
+  Designed from the ground up to be fast, scalable, fault tolerant, and implemented as a thin layer atop other storage paradigms.
+  Shock is RESTful and allows storage and querying of complex metadata.
+  Shock is a data management system. The long term goals of Shock include the ability to annotate, anonymize, convert, filter, perform quality control, and statically subsample at line speed bioinformatics sequence data. Extensible plug-in architecture is in development.
+  </p>
+  
+  <p>A Shock server supports remote data storage and local caching and is currently used in production with the following remote stores: 
+    <list>
+      <li>Shock (Type: Shock)</li> 
+      <li> S3 (Type: S3)</li>
+      <li>IBM Tivoli TSM (Type: TSM)</li>
+    </list>
+  </p>
+<p>Shock provides protoypical support for:
+    <list>
+      <li> Amazon Glacier</li>
+      <li> Google Cloud Storage</li>
+      <li> Microsoft Azure Data Storage</li>
+    </list>
+    </p>
+<p>Future plans include support for: (pull requests welcome)
+<list>
+  <li> DAOS</li>
+  <li>Globus</li>
+  <li>IRoDS</li>
+</list> 
+</p>
+<p class="text-right"><a href="https://github.com/MG-RAST/Shock">visit homepage</a></p>
+</td></tr>
+
+</tbody>
+</table>
+</section>
+
+
+<section id="contact">
+<h3>Contact</h3>
+<table class="table">
+<tbody>
+<tr><th>email</th><td><a href="mailto:folker.meyer@uk-essen.de">folker.meyer@uk-essen.de</a></td></tr>
+<tr><th>phone</th><td>+49 (0)201 723 tbd</td></tr>
+<tr><th>www</th><td><a href="https://meyerlab.github.io">https://meyerlab.github.io</a></td></tr>
+<tr>
+    <th>office</th>
+    <td>
+        4th floor<br/>
+        Giradetstr. 6<br/>
+        45147 Essen<br/>
+        <a href="https://goo.gl/maps/h1DT8fTWzNJemKxy7">[Google Maps]</a>
+    </td>
+</tr>
+<tr>
+    <th>postal</th>
+    <td>
+        AG Data Science<br/>
+        Institut für Künstliche Intelligenz in der Medizin<br/>
+        Universitätsklinikum Essen<br/>
+        Giradetstr. 6<br/>
+        45147 Essen<br/>
+        Germany
+    </td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="teaching">
+<h3>Teaching</h3>
+  <section id="fp-CWL-2021">
+    <h4>Applied, reproducible Microbiome Analytics at scale</h4>
+    <h5></h5>
+    <table class="table">
+      <tbody>
+        <tr><th>Art</th><td>Fachprojekt</td></tr>
+        <tr><th>Semester</th><td>TBD</td></tr>
+        <tr><th>Zeit</th><td>TBD (Anwesenheitspflicht)</td></tr>
+        <tr><th>Ort</th><td>TBD</td></tr>
+        <tr><th>Ablauf und Material</th><td>TBA</td></tr>
+        <tr><th>Kontakt</th><td><a href="mailto:folker.meyer@uk-essen.de">folker.meyer@uk-essen.de</a></td></tr>
+      </tbody>
+    </table>
+    <p>
+      Mikrobiomdaten stellen durch Größe und Komplexität signifikante Herausforderungen bei der Analyse dar. 
+      Im Rahmen des Fachprojekts führen wir die bioinformatische Analuse von realen Mikrobiom-Datensätzen durch.
+  
+      Ziel ist es <a href="http://www.researchobject.org/" rel="nofollow">Researchobjects</a> zu erzeugen, welche die einzelnen Analyseschritte
+      und Ergebisse widerspiegeln. Dazu nutzen wir <a href="http://www.commonwl.org" rel="nofollow">CWL</a> 
+      und <a href="https://github.com/common-workflow-language/cwlprov">CWLProv</a>.
+
+      Wir werden auf existierenden Rechnern (Clustern, Grids und Clouds) aus den Sequenzdaten Informationen 
+      für die Interpretation der Daten erstellen und Visualisierungen erstellen.
+    </p>
+
+
+    <p>
+      Die Aufgabe der Studendiereden ist, auf Basis von aktueller Literatur, eine allgemein
+      verwendbare, effiziente Implementierung einer Pipeline zur Genomanalyse in CWL zu erstellen.
+    </p>
+  </section
+
+</section>
+
+<section id="misc">
+
+  <p>TBD</p>
+</section>
+
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+</body>
+</html>
